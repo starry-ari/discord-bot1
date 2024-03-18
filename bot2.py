@@ -13,7 +13,7 @@ client = discord.Client(intents=intents)
 
 @client.event
 async def on_ready():
-    channel = client.get_channel(1150634132444020756);
+    channel = client.get_channel("channel ID");
     await channel.send(embed=embed)
    
 
